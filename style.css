@@ -1,0 +1,300 @@
+/* Estilos generales */
+body {
+    background-image: url(/celu_2.jpg);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b9b9b9;
+    
+    color: #f5f1f1;
+    position: relative;
+    
+}
+header ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(69, 134, 69, 0.445);
+    z-index: -1;
+}
+
+header {
+    background-color: #008E49;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 80px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FBC10E;
+}
+
+
+/* Banner */
+.banner {
+    background-image: url('https://aprende.com/wp-content/uploads/2020/11/circuito-electronico.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: black;
+    background-color: #FBC10E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 600;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.562);
+    z-index: 0;
+}
+
+.banner h1, .banner p, .banner button {
+    position: relative;
+    z-index: 1;
+}
+
+.banner button:hover {
+    font-weight: 800;
+    background-color: #00B65E;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 2em;
+    color: #fbfffd;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.services {
+   
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.direc, .direc2{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-left: 50px;
+}
+
+.direc1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+
+/* Carrusel */
+.carousel {    
+    display: flex;
+    justify-content:center;
+    overflow: hidden;
+    width: 500px; /* Ajusta este ancho según tus necesidades */
+    margin: auto;
+    position: relative;
+}
+
+.carousel-container {
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    
+}
+
+.carousel-item {
+   
+    min-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #0202025d;
+}
+
+.carousel-item img{
+    display: grid;
+    margin: auto;
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    font-size: 2.5em;
+    color: #FBC10E
+   }
+
+.carousel-control:hover {
+    color: #008E49;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+/* Beneficios */
+.benefits {
+    background-color: #fab00f;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.904);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #008E49;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.829);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.map-container {
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .banner h1 {
+        font-size: 2.5em;
+    }
+
+    .banner p {
+        font-size: 1.2em;
+    }
+
+    .carousel-item {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        margin: 0 10px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-item {
+        flex: 1 0 80%;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 70px 10px;
+    }
+
+    .carousel-control {
+        font-size: 2em;
+    }
+
+    .carousel-item {
+        flex: 1 0 90%;
+        padding: 10px;
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .benefits {
+        padding: 30px 15px;
+    }
+}
