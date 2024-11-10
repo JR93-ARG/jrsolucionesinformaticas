@@ -113,17 +113,25 @@ nav a:hover {
 h3 {
     
     font-size: 40px;
-    text-shadow: 1px 1px 2px #50504b;
+    text-shadow: 2px 1px 3px #010101;
     color: #fbfffd;
     margin: 30px 0;
     text-align: center;
     background-color: #FBC10E;
     border-radius: 50px;
 }
+
+h4 {
+    color: #ffffff;
+    text-shadow: 2px 1px 3px #000000;
+   
+    
+
+}
 .services dl{
     font-size: 30px;
     align-content:center;
-    text-shadow: 1px 1px 2px #50504b;
+    text-shadow: 2px 1px 2px #000000;
     
     
 }
@@ -257,6 +265,10 @@ footer {
     align-items: center;
 }
 
+a{
+    color: #ffffff;
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
 
@@ -314,6 +326,41 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    nav a {
+        
+        font-size: 20px;
+    }
+    .banner {
+        padding: 70px 10px;
+    }
+
+    .carousel-control {
+        font-size: 2em;
+    }
+
+    .carousel-item {
+        flex: 1 0 90%;
+        padding: 10px;
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .benefits {
+        padding: 30px 15px;
+    }
+    dl, li{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 300px) {
 
     nav a {
         
