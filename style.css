@@ -110,14 +110,19 @@ nav a:hover {
 }
 
 h3 {
-    font-size: 2em;
+    
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #50504b;
     color: #fbfffd;
     margin: 30px 0;
     text-align: center;
+    background-color: #FBC10E;
+    border-radius: 50px;
 }
 .services dl{
     font-size: 30px;
     align-content:center;
+    text-shadow: 1px 1px 2px #50504b;
     
     
 }
@@ -149,6 +154,7 @@ services li{
 }
 .direc1, .direc2, .direc, dl{
     width: auto;
+    margin: auto;
 }
 
 
@@ -264,10 +270,14 @@ footer {
         padding: 15px;
     }
 
-    dl, li{
-        font-size: auto;
+    .direc, .direc1, .direc2{
+        grid-template-columns: 1fr;
+        max-width: 60%;
+        margin: auto;
+
     }
-}
+
+         
 
 @media (max-width: 768px) {
     nav a {
@@ -291,7 +301,7 @@ footer {
     }
 
     dl, li{
-        font-size: auto;
+        font-size: 17px;
     }
 }
 
@@ -321,6 +331,6 @@ footer {
         padding: 30px 15px;
     }
     dl, li{
-        font-size: auto;
+        font-size: 10px;
     }
 }
