@@ -262,7 +262,7 @@ footer {
 
     nav a {
         
-        font-size: 17px;
+        font-size: 18px;
     }
     .banner h1 {
         font-size: 2.5em;
@@ -289,7 +289,7 @@ footer {
 @media (max-width: 768px) {
     nav a {
         margin: 0 10px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .carousel {
@@ -309,7 +309,7 @@ footer {
     }
 
     dl, li{
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
@@ -317,7 +317,7 @@ footer {
 
     nav a {
         
-        font-size: 13px;
+        font-size: 20px;
     }
     .banner {
         padding: 70px 10px;
@@ -344,6 +344,6 @@ footer {
         padding: 30px 15px;
     }
     dl, li{
-        font-size: 10px;
+        font-size: 15px;
     }
 }
