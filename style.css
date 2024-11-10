@@ -46,6 +46,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -258,6 +259,11 @@ footer {
 
 /* Media Queries */
 @media (max-width: 1024px) {
+
+    nav a {
+        
+        font-size: 17px;
+    }
     .banner h1 {
         font-size: 2.5em;
     }
@@ -276,12 +282,14 @@ footer {
         margin: auto;
 
     }
+}
 
          
 
 @media (max-width: 768px) {
     nav a {
         margin: 0 10px;
+        font-size: 15px;
     }
 
     .carousel {
@@ -306,6 +314,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    nav a {
+        
+        font-size: 13px;
+    }
     .banner {
         padding: 70px 10px;
     }
