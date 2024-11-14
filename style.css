@@ -194,6 +194,7 @@ services li{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #0202025d;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item img{
@@ -203,6 +204,11 @@ services li{
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
 }
 
 .carousel-control {
@@ -272,6 +278,147 @@ a{
     color: #ffffff;
 }
 
+/* Añade esto en tu archivo CSS para estilizar las promociones */
+
+.instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+      justify-content: center;    
+}
+.instagram-feed img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+instagram-feed img:hover {
+    transform: scale(1.05);
+}
+.instagram-media {
+    flex: 1 0 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.instagram-media img {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+.promotions {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.promotion-item {
+    margin: 10px 0;
+}
+
+.promotion-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.promotion-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Añade esto en tu archivo CSS para estilizar las reseñas */
+.reviews {
+    background-color: #008E49;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.review-form {
+    margin-bottom: 20px;
+}
+
+.review-form h3 {
+    margin-bottom: 10px;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.review-form input, .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.star-rating .star {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff; /* Estrellas blancas por defecto */
+    transition: color 0.3s;
+}
+
+.star-rating .star.selected {
+    color: #FFD700; /* Estrellas amarillas cuando están seleccionadas */
+}
+
+.reviews-list .review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.reviews-list .review h4 {
+    margin: 0 0 5px 0;
+}
+
+.reviews-list .review .star-rating {
+    display: flex;
+    gap: 5px;
+    
+}
+
+/* Estilos para centrar y hacer adaptables las secciones de Instagram y Facebook */
+.instagram-feed, .facebook-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.instagram-feed .instagram-media, .facebook-feed .fb-page {
+    width: 100%;
+    max-width: 500px; /* Ajusta este valor según tus necesidades */
+    margin: 10px 0;
+}
+
+.instagram-feed img, .facebook-feed img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-feed img:hover, .facebook-feed img:hover {
+    transform: scale(1.05);
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
 
@@ -326,6 +473,10 @@ a{
     dl, li{
         font-size: 25px;
         
+    }
+
+    .instagram-feed .instagram-media, .facebook-feed .fb-page {
+        max-width: 100%;
     }
 }
 
