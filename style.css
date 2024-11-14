@@ -643,15 +643,12 @@ img:hover {
   .banner h1 {
     font-size: 2.5em;
   }
-
   .banner p {
     font-size: 1.2em;
   }
-
   .carousel-item {
     padding: 15px;
   }
-
   .direc,
   .direc1,
   .direc2 {
@@ -669,34 +666,33 @@ img:hover {
     margin: 0 10px;
     font-size: 18px;
   }
-
   .carousel {
     width: 100%;
   }
-
   .carousel-item {
     flex: 1 0 80%;
   }
-
   .banner h1 {
     font-size: 2em;
   }
-
   .banner p {
     font-size: 1em;
   }
-
   dl,
   li {
     font-size: 25px;
   }
-
   .instagram-feed .instagram-media,
   .facebook-feed .fb-page {
     max-width: 100%;
   }
   .product-item {
     max-width: 45%;
+  }
+  .instagram-feed,
+  .facebook-feed {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
 
@@ -707,24 +703,19 @@ img:hover {
   .banner {
     padding: 70px 10px;
   }
-
   .carousel-control {
     font-size: 2em;
   }
-
   .carousel-item {
     flex: 1 0 90%;
     padding: 10px;
   }
-
   .banner h1 {
     font-size: 1.5em;
   }
-
   .banner p {
     font-size: 1em;
   }
-
   .benefits {
     padding: 30px 15px;
   }
@@ -744,24 +735,19 @@ img:hover {
   .banner {
     padding: 70px 10px;
   }
-
   .carousel-control {
     font-size: 2em;
   }
-
   .carousel-item {
     flex: 1 0 90%;
     padding: 10px;
   }
-
   .banner h1 {
     font-size: 1.5em;
   }
-
   .banner p {
     font-size: 1em;
   }
-
   .benefits {
     padding: 30px 15px;
   }
@@ -770,14 +756,6 @@ img:hover {
     font-size: 25px;
   }
   .product-item {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .instagram-feed,
-  .facebook-feed {
-    flex: 1 1 100%; /* Se apilan verticalmente en pantallas más pequeñas */
     max-width: 100%;
   }
 }
