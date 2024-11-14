@@ -309,14 +309,19 @@ instagram-feed img:hover {
     margin-left: 10px;
 }
 .promotions {
-    background-color: #f9f9f9;
+    background-color: #FBC10E;
+    ;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.829);
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .promotion-item {
     margin: 10px 0;
+    
 }
+
 
 .promotion-item img {
     max-width: 100%;
@@ -326,7 +331,7 @@ instagram-feed img:hover {
 
 .promotion-item p {
     font-size: 1.2em;
-    color: #333;
+    color: #1bc204;
 }
 
 /* Añade esto en tu archivo CSS para estilizar las reseñas */
