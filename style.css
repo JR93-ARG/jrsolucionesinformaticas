@@ -546,7 +546,7 @@ instagram-feed img:hover {
   transition: transform 0.3s ease;
 }
 
-.product-item p {
+.product-item button {
   color: #080808;
   font-size: 1em;
   background-color: #eeba20;
@@ -556,9 +556,10 @@ instagram-feed img:hover {
   display: inline-block;
   font-weight: bold;
   transition: background-color 0.3s;
+  border-style: none;
 }
 
-.product-item p:hover {
+.product-item button:hover {
   color: #eeba20;
   text-shadow: 1px 1px 2px #000000;
   background-color: #008e49;
