@@ -157,16 +157,16 @@ h4 {
   color: #ffffff;
   border-radius: 50px;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(221, 215, 215, 0.63);
 }
 .services li {
-  text-align: justify;
+  
   font-size: 25px;
   text-shadow: 2px 1px 2px #000000;
   color: #ffffff;
   border-radius: 50px;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(203, 212, 71, 0.3);
 }
 
 .services {
@@ -202,14 +202,16 @@ h4 {
 dl {
   width: auto;
   margin: auto;
+  gap: 15px;
   padding: 30px;
   border-radius: 10px;
   background-color: #0202025d;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(34, 33, 33, 0.349);
 }
 
 /* Carrusel */
 .carousel {
+  
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -348,6 +350,8 @@ instagram-feed img:hover {
 }
 .promotions {
   display: flex;
+  max-width: 800px;
+  margin: auto;
   gap: 20px;
   background-color: #fcfcfca8;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.829);
@@ -373,7 +377,7 @@ instagram-feed img:hover {
 }
 
 .promotion-item p {
-  font-size: 50px;
+  font-size: 30px;
   color: #eeba20;
   background-color: #008e49;
   border-radius: 40px;
@@ -624,6 +628,7 @@ img:hover {
   h4 {
     font-size: 25px;
   }
+ 
   .services dl {
     font-size: 25px;
   }
@@ -640,6 +645,11 @@ img:hover {
   }
   .reviews-list .review {
     padding: 8px;
+  }
+  .promotions {
+    padding: 10px;
+    flex-direction: row;
+    
   }
 }
 
@@ -699,6 +709,11 @@ img:hover {
   .reviews-list .review {
     padding: 6px;
   }
+  .promotions {
+    padding: 10px;
+    flex-direction: row;
+    
+  }
 }
 
 @media (max-width: 480px) {
@@ -755,6 +770,11 @@ img:hover {
   }
   .reviews-list .review {
     padding: 5px;
+  }
+  .promotions {
+    padding: 10px;
+    flex-direction: row;
+    
   }
 }
 
