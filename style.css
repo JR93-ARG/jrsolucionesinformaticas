@@ -522,10 +522,18 @@ instagram-feed img:hover {
 }
 
 .products h2 {
-  color: #fcb635f5;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  background-color: #eeba20;
+  color: #353535f5;
+  
+  border-radius: 30px;
+  margin: auto;
+  padding: 20px;
   margin-bottom: 30px;
   font-size: 50px;
-  text-shadow: 2px 1px 2px #000000;
+  text-shadow: 2px 1px 10px #eeeb29;
+
 
 }
 
