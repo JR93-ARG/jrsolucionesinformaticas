@@ -609,6 +609,7 @@ img:hover {
   }
   .carousel-item {
     padding: 15px;
+    
   }
   .direc,
   .direc1,
@@ -617,11 +618,30 @@ img:hover {
     max-width: 60%;
     margin: auto;
   }
-
-  
+  h3 {
+    font-size: 35px;
   }
-  
+  h4 {
+    font-size: 25px;
+  }
+  .services dl {
+    font-size: 25px;
+  }
+  .services li {
+    font-size: 20px;
+  }
 
+  .review-form input,
+  .review-form textarea {
+    padding: 8px;
+  }
+  .star-rating .star {
+    font-size: 1.3em;
+  }
+  .reviews-list .review {
+    padding: 8px;
+  }
+}
 
 @media (max-width: 768px) {
   nav a {
@@ -656,6 +676,29 @@ img:hover {
     flex: 1 1 100%;
     max-width: 100%;
   }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .services dl {
+    font-size: 20px;
+  }
+  .services li {
+    font-size: 18px;
+  }
+
+  .review-form input,
+  .review-form textarea {
+    padding: 6px;
+  }
+  .star-rating .star {
+    font-size: 1.2em;
+  }
+  .reviews-list .review {
+    padding: 6px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -667,10 +710,12 @@ img:hover {
   }
   .carousel-control {
     font-size: 2em;
+
   }
   .carousel-item {
     flex: 1 0 90%;
     padding: 10px;
+
   }
   .banner h1 {
     font-size: 1.5em;
@@ -687,6 +732,29 @@ img:hover {
   }
   .product-item {
     max-width: 100%;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .services dl {
+    font-size: 18px;
+  }
+  .services li {
+    font-size: 16px;
+  }
+
+  .review-form input,
+  .review-form textarea {
+    padding: 5px;
+  }
+  .star-rating .star {
+    font-size: 1em;
+  }
+  .reviews-list .review {
+    padding: 5px;
   }
 }
 
@@ -719,5 +787,28 @@ img:hover {
   }
   .product-item {
     max-width: 100%;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .services dl {
+    font-size: 16px;
+  }
+  .services li {
+    font-size: 14px;
+  }
+
+  .review-form input,
+  .review-form textarea {
+    padding: 4px;
+  }
+  .star-rating .star {
+    font-size: 0.9em;
+  }
+  .reviews-list .review {
+    padding: 4px;
   }
 }
