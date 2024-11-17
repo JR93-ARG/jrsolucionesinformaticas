@@ -609,6 +609,33 @@ img:hover {
 }
 
 /* Estilos para la sección de productos */
+
+
+#productos-lista h1{
+  max-width: auto;
+  color: #fffffff5;
+  text-align: center;
+  border-radius: 30px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-shadow: 2px 1px 10px #eeeb29;
+}
+#productos-lista h2{
+  max-width: 300px;
+  border: 1px solid #ccc;
+  background-color: #eeba20;
+  color: #353535f5;
+  text-align: center;
+  border-radius: 30px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-shadow: 2px 1px 10px #eeeb29;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -650,7 +677,8 @@ img:hover {
 }
 
 .grid-item button {
-  color: #080808;
+  color: #ffffff;
+  text-shadow: 2px 1px 2px #000000;
   font-size: 20px;
   background-color: #eeba20;
   border-radius: 40px;
@@ -660,7 +688,18 @@ img:hover {
   font-weight: bold;
   transition: background-color 0.3s;
   border-style: none;
-  
+}
+.grid-item button:hover {
+  color: #ffffffec;
+  text-shadow: 1px 1px 2px #000000;
+  background-color: #8e5000;
+  border-radius: 40px;
+  padding: 5px;
+  margin: 10px 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+  transition: background-color 0.3s;
 }
 
 
